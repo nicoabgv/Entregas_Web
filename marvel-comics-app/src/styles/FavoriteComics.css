@@ -1,0 +1,41 @@
+.favorite-comics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+  
+.favorite-comic-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    padding: 10px;
+    width: 180px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+.favorite-comic-card img {
+    max-width: 100%;
+    margin-top: 20px;
+    height: auto;
+    border-radius: 5px;
+}
+  
+.favorite-comic-card button {
+    background-color: #FF4136;
+    color: white;
+    padding: 10px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+  
+.favorite-comic-card button:hover {
+    background-color: #D63230;
+}
+  
